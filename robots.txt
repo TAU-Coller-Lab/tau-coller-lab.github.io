@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://coller-lab.github.io/sitemap.xml
+Sitemap: https://tau-coller-lab.github.io/sitemap.xml
