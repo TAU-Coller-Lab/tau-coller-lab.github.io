@@ -1,0 +1,34 @@
+# Lab members data
+# Images should be placed in assets/img/members/
+# Leave any field blank to omit it from the page.
+
+phd:
+  - name: Tal Cordova
+    image: tal_cordova.jpg # assets/img/members/
+    thesis: Vision Context-Aware Recommender Systems
+    email: talcordova@mail.tau.ac.il
+    github: https://github.com/TalCordova
+    linkedin: https://www.linkedin.com/in/tal-cordova/
+
+  # Add more PhD students by duplicating the block above:
+  # - name: ...
+  #   image: ...
+  #   thesis: ...
+  #   email: ...
+
+master:
+  - name: Master Student Name
+    image: placeholder.jpg
+    thesis: Thesis title or research area goes here
+    email: student@mail.tau.ac.il
+    github: # https://github.com/username
+    website:
+    linkedin:
+    year_start: 2024
+
+former:
+  - name: Former Student Name
+    degree: PhD # or Master
+    year: 2023
+    thesis: Thesis title here
+    current_position: Now at Organization Name

@@ -1,0 +1,60 @@
+---
+layout: page
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="desc">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {% assign tools = site.data.tools %}
+    {% if tools and tools.size > 0 %}
+      <div class="tools-list">
+        {% for tool in tools %}
+          <div class="tool-item">
+            <div class="tool-header">
+              <h3 class="tool-name">
+                {% if tool.github %}
+                  <a href="{{ tool.github }}" target="_blank">{{ tool.name }}</a>
+                {% elsif tool.docs %}
+                  <a href="{{ tool.docs }}" target="_blank">{{ tool.name }}</a>
+                {% else %}
+                  {{ tool.name }}
+                {% endif %}
+              </h3>
+              <div class="tool-links">
+                {% if tool.github %}
+                  <a href="{{ tool.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i> Code</a>
+                {% endif %}
+                {% if tool.paper %}
+                  <a href="{{ tool.paper }}" target="_blank" title="Paper"><i class="fas fa-file-alt"></i> Paper</a>
+                {% endif %}
+                {% if tool.docs %}
+                  <a href="{{ tool.docs }}" target="_blank" title="Docs"><i class="fas fa-book"></i> Docs</a>
+                {% endif %}
+              </div>
+            </div>
+            {% if tool.description %}
+              <p class="tool-description">{{ tool.description }}</p>
+            {% endif %}
+            {% if tool.tags and tool.tags.size > 0 %}
+              <div class="tool-tags">
+                {% for tag in tool.tags %}
+                  <span class="tool-tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% unless forloop.last %}
+            <hr class="tool-divider">
+          {% endunless %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No tools listed yet. Add entries to <code>_data/tools.yml</code> to populate this page.</p>
+    {% endif %}
+  </article>
+</div>

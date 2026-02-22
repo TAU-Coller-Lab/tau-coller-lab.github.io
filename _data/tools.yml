@@ -1,0 +1,17 @@
+# Lab tools and datasets
+# Each entry represents a software tool or dataset produced by the lab.
+
+- name: Tool Name
+  description: A short one-sentence description of what this tool does and what problem it solves.
+  github: https://github.com/TAU-Coller-Lab/tool-name
+  paper: # link to the associated publication (optional)
+  docs: # link to documentation or project website (optional)
+  tags: [nlp, classification] # relevant research area tags
+
+# Add more tools by duplicating the block above:
+# - name: ...
+#   description: ...
+#   github: ...
+#   paper: ...
+#   docs: ...
+#   tags: [...]

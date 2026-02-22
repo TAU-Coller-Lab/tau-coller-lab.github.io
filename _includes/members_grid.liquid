@@ -1,0 +1,128 @@
+{% assign members = site.data.members %}
+
+{% if members.phd and members.phd.size > 0 %}
+  <div class="members-section">
+    <h2>PhD Students</h2>
+    <hr class="members-rule">
+    {% for member in members.phd %}
+      {% assign name_parts = member.name | split: ' ' %}
+      {% assign first_initial = name_parts[0] | slice: 0, 1 | upcase %}
+      {% assign last_initial = name_parts | last | slice: 0, 1 | upcase %}
+      {% assign initials = first_initial | append: last_initial %}
+      <div class="member-row">
+        <div class="member-photo" aria-label="{{ member.name }}">
+          <span class="member-initials">{{ initials }}</span>
+          {% if member.image %}
+            {% assign member_image_path = member.image | prepend: 'assets/img/members/' %}
+            <img
+              src="{{ member_image_path | relative_url }}"
+              alt="{{ member.name }}"
+              class="img-fluid"
+              onload="this.previousElementSibling.style.display='none'"
+              onerror="this.remove()"
+            >
+          {% endif %}
+        </div>
+        <div class="member-info">
+          <span class="member-name">{{ member.name }}</span>
+          {% if member.thesis %}
+            <span class="member-thesis">{{ member.thesis }}</span>
+          {% endif %}
+          {% if member.year_start %}
+            <span class="member-year">Since {{ member.year_start }}</span>
+          {% endif %}
+        </div>
+        <div class="member-links">
+          {% if member.email %}
+            <a href="mailto:{{ member.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+          {% endif %}
+          {% if member.github %}
+            <a href="{{ member.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if member.website %}
+            <a href="{{ member.website }}" target="_blank" title="Website"><i class="fas fa-globe"></i></a>
+          {% endif %}
+          {% if member.linkedin %}
+            <a href="{{ member.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if members.master and members.master.size > 0 %}
+  <div class="members-section">
+    <h2>Master Students</h2>
+    <hr class="members-rule">
+    {% for member in members.master %}
+      {% assign name_parts = member.name | split: ' ' %}
+      {% assign first_initial = name_parts[0] | slice: 0, 1 | upcase %}
+      {% assign last_initial = name_parts | last | slice: 0, 1 | upcase %}
+      {% assign initials = first_initial | append: last_initial %}
+      <div class="member-row">
+        <div class="member-photo" aria-label="{{ member.name }}">
+          <span class="member-initials">{{ initials }}</span>
+          {% if member.image %}
+            {% assign member_image_path = member.image | prepend: 'assets/img/members/' %}
+            <img
+              src="{{ member_image_path | relative_url }}"
+              alt="{{ member.name }}"
+              class="img-fluid"
+              onload="this.previousElementSibling.style.display='none'"
+              onerror="this.remove()"
+            >
+          {% endif %}
+        </div>
+        <div class="member-info">
+          <span class="member-name">{{ member.name }}</span>
+          {% if member.thesis %}
+            <span class="member-thesis">{{ member.thesis }}</span>
+          {% endif %}
+          {% if member.year_start %}
+            <span class="member-year">Since {{ member.year_start }}</span>
+          {% endif %}
+        </div>
+        <div class="member-links">
+          {% if member.email %}
+            <a href="mailto:{{ member.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+          {% endif %}
+          {% if member.github %}
+            <a href="{{ member.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if member.website %}
+            <a href="{{ member.website }}" target="_blank" title="Website"><i class="fas fa-globe"></i></a>
+          {% endif %}
+          {% if member.linkedin %}
+            <a href="{{ member.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if members.former and members.former.size > 0 %}
+  <div class="members-section">
+    <h2>Former Students</h2>
+    <hr class="members-rule">
+    <ul class="former-students-list">
+      {% for member in members.former %}
+        <li class="former-student-item">
+          <span class="former-name">{{ member.name }}</span>
+          {% if member.degree or member.year %}
+            <span class="former-meta">
+              ({% if member.degree %}{{ member.degree }}{% endif %}{% if member.degree and member.year %}, {% endif %}{% if member.year %}{{ member.year }}{% endif %})
+            </span>
+          {% endif %}
+          {% if member.thesis %}
+            <span class="former-thesis">&mdash; {{ member.thesis }}</span>
+          {% endif %}
+          {% if member.current_position %}
+            <span class="former-position">&middot; <em>{{ member.current_position }}</em></span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

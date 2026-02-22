@@ -1,0 +1,87 @@
+/*******************************************************************************
+ * Tools page styles
+ ******************************************************************************/
+
+.tools-list {
+  margin-top: 1rem;
+}
+
+.tool-item {
+  padding: 1.2rem 0;
+}
+
+.tool-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
+.tool-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.tool-links {
+  display: flex;
+  gap: 0.8rem;
+  flex-shrink: 0;
+
+  a {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+
+    i {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.tool-description {
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  margin: 0.25rem 0 0.6rem;
+  line-height: 1.55;
+}
+
+.tool-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tool-tag {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 9999px;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  background: transparent;
+}
+
+.tool-divider {
+  border: none;
+  border-top: 1px solid var(--global-divider-color);
+  margin: 0;
+}

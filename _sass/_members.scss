@@ -1,0 +1,186 @@
+/*******************************************************************************
+ * Members / Students page styles
+ ******************************************************************************/
+
+.members-section {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.5rem;
+  }
+}
+
+.members-rule {
+  border: none;
+  border-top: 1px solid var(--global-divider-color);
+  margin: 0.4rem 0 1.2rem;
+}
+
+.member-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.member-photo {
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--global-theme-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.member-initials {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.02em;
+  user-select: none;
+  pointer-events: none;
+}
+
+.member-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.member-name {
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.member-thesis {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.member-year {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+}
+
+.member-links {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+
+  a {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// Former students — compact list
+.former-students-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.former-student-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.93rem;
+  line-height: 1.5;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.former-name {
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.former-meta {
+  color: var(--global-text-color-light);
+  margin-left: 0.2rem;
+}
+
+.former-thesis {
+  color: var(--global-text-color-light);
+}
+
+.former-position {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+}
+
+// Lab contact section at page bottom
+.members-contact {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+  text-align: center;
+
+  p {
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.75rem;
+  }
+}
+
+.members-contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+
+  a {
+    color: var(--global-text-color-light);
+    font-size: 1.4rem;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// Responsive: stack photo below name on very small screens
+@media (max-width: 400px) {
+  .member-row {
+    flex-wrap: wrap;
+  }
+
+  .member-links {
+    width: 100%;
+  }
+}
