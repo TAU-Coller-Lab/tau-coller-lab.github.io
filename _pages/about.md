@@ -6,7 +6,7 @@ subtitle: AI & Business Analytics Research · <a href="https://www.tau.ac.il/" t
 
 profile:
   align: right
-  image: lab_logo.png # place your lab logo at assets/img/lab_logo.png
+  image: prof_pic.jpg # replace with lab_logo.png once you add that file to assets/img/
   image_circular: false
   more_info: >
     <p>Coller School of Management</p>
