@@ -1,28 +1,15 @@
 ---
-layout: about
-title: about
+layout: lab-home
+title: About
 permalink: /
-subtitle: AI & Business Analytics Research · <a href="https://www.tau.ac.il/" target="_blank">Tel Aviv University</a>
 
-profile:
-  align: right
-  image: prof_pic.jpg # replace with lab_logo.png once you add that file to assets/img/
-  image_circular: false
-  more_info: >
-    <p>Coller School of Management</p>
-    <p>Tel Aviv University</p>
-    <p>Tel Aviv, Israel</p>
+subtitle: Coller School of Management · Tel Aviv University
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+lab_logo: lab_logo.png         # place your lab logo at assets/img/lab_logo.png
+faculty_logo: faculty_logo.png # place the faculty logo at assets/img/faculty_logo.png
 
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: false
+selected_papers: true # includes papers marked as "selected={true}" in papers.bib
+social: true          # shows email and GitHub icons from _data/socials.yml
 ---
 
 The **Coller Lab** is a research group at the [Coller School of Management](https://www.tau.ac.il/), Tel Aviv University, working at the intersection of artificial intelligence and business analytics.

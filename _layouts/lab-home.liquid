@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="post">
+  <div class="lab-home-hero">
+    {% if page.lab_logo %}
+      <img
+        src="{{ page.lab_logo | prepend: 'assets/img/' | relative_url }}"
+        alt="{{ site.title }} logo"
+        class="lab-logo-img"
+      >
+    {% endif %}
+
+    <h1 class="lab-home-title">{{ site.title }}</h1>
+
+    {% if page.faculty_logo %}
+      <div class="faculty-logo-row">
+        <img
+          src="{{ page.faculty_logo | prepend: 'assets/img/' | relative_url }}"
+          alt="Faculty logo"
+          class="faculty-logo-img"
+        >
+        <span class="faculty-affiliation">{{ page.subtitle }}</span>
+      </div>
+    {% elsif page.subtitle %}
+      <p class="lab-home-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+
+  <article class="lab-home-content">
+    {{ content }}
+
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+  </article>
+</div>

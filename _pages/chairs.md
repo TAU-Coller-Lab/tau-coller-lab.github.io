@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /chairs/
-title: chairs
+title: Lab Chairs
 description: Lab directors and principal investigators
 nav: true
 nav_order: 2
@@ -9,7 +9,7 @@ nav_order: 2
 profiles:
   # Add one block per chair. Duplicate the block below for additional chairs.
   - align: right
-    image: prof_pic.jpg # replace with chair's photo in assets/img/
+    image: chairs/prof_pic.jpg # replace with chair's photo in assets/img/chairs/
     content: about_chair.md
     image_circular: false
     more_info: >

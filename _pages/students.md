@@ -1,8 +1,15 @@
 ---
-layout: students
+layout: page
+title: Students
 permalink: /students/
-title: students
-description: PhD students, master students, and alumni of the lab
 nav: true
 nav_order: 3
+dropdown: true
+children:
+  - title: PhD Students
+    permalink: /students/phd/
+  - title: Master Students
+    permalink: /students/master/
+  - title: Former Students
+    permalink: /students/former/
 ---
