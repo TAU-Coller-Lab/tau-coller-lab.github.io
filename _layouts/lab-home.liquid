@@ -3,27 +3,26 @@ layout: default
 ---
 <div class="post">
   <div class="lab-home-hero">
+    <div class="lab-home-hero-left">
+      <h1 class="lab-home-title">{{ site.title }}</h1>
+      {% if page.faculty_logo %}
+        <div class="faculty-logo-row">
+          <img
+            src="{{ page.faculty_logo | prepend: 'assets/img/' | relative_url }}"
+            alt="Faculty logo"
+            class="faculty-logo-img"
+          >
+        </div>
+      {% endif %}
+    </div>
     {% if page.lab_logo %}
-      <img
-        src="{{ page.lab_logo | prepend: 'assets/img/' | relative_url }}"
-        alt="{{ site.title }} logo"
-        class="lab-logo-img"
-      >
-    {% endif %}
-
-    <h1 class="lab-home-title">{{ site.title }}</h1>
-
-    {% if page.faculty_logo %}
-      <div class="faculty-logo-row">
+      <div class="lab-home-hero-right">
         <img
-          src="{{ page.faculty_logo | prepend: 'assets/img/' | relative_url }}"
-          alt="Faculty logo"
-          class="faculty-logo-img"
+          src="{{ page.lab_logo | prepend: 'assets/img/' | relative_url }}"
+          alt="{{ site.title }} logo"
+          class="lab-logo-img"
         >
-        <span class="faculty-affiliation">{{ page.subtitle }}</span>
       </div>
-    {% elsif page.subtitle %}
-      <p class="lab-home-subtitle">{{ page.subtitle }}</p>
     {% endif %}
   </div>
 
