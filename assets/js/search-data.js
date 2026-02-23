@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-phd-students",
+  },{id: "nav-lab-chairs",
+          title: "Lab Chairs",
+          description: "Lab directors and principal investigators",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/chairs/";
+          },
+        },{id: "dropdown-phd-students",
               title: "PhD Students",
               description: "",
               section: "Dropdown",
