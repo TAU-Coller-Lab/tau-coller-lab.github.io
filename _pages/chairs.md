@@ -9,11 +9,10 @@ nav_order: 2
 profiles:
   # Add one block per chair. Duplicate the block below for additional chairs.
   - align: right
-    image: chairs/prof_pic.jpg # replace with chair's photo in assets/img/chairs/
-    content: about_chair.md
+    image: chairs/moshe_unger.jpg # replace with chair's photo in assets/img/chairs/
+    content: about_moshe.md
     image_circular: false
     more_info: >
-      <p>Coller School of Management</p>
-      <p>Tel Aviv University</p>
-      <p><a href="mailto:TheCollerLab@gmail.com">TheCollerLab@gmail.com</a></p>
+      <p><a href="mailto:mosheunger@tauex.tau.ac.il">mosheunger@tauex.tau.ac.il</a></p>
+      <p>Office:  Lorry Lokey Building, Room 2092, Tel Aviv University</p>
 ---
