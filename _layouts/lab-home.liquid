@@ -5,15 +5,6 @@ layout: default
   <div class="lab-home-hero">
     <div class="lab-home-hero-left">
       <h1 class="lab-home-title">{{ site.title }}</h1>
-      {% if page.faculty_logo %}
-        <div class="faculty-logo-row">
-          <img
-            src="{{ page.faculty_logo | prepend: 'assets/img/' | relative_url }}"
-            alt="Faculty logo"
-            class="faculty-logo-img"
-          >
-        </div>
-      {% endif %}
     </div>
     {% if page.lab_logo %}
       <div class="lab-home-hero-right">
@@ -25,6 +16,16 @@ layout: default
       </div>
     {% endif %}
   </div>
+
+  {% if page.faculty_logo %}
+    <div class="faculty-logo-row">
+      <img
+        src="{{ page.faculty_logo | prepend: 'assets/img/' | relative_url }}"
+        alt="Faculty logo"
+        class="faculty-logo-img"
+      >
+    </div>
+  {% endif %}
 
   <article class="lab-home-content">
     {{ content }}

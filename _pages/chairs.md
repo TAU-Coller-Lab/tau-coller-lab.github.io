@@ -13,8 +13,8 @@ profiles:
     content: about_inbal.md
     image_circular: false
     more_info: >
-    <p><a href="mailto:inbalyahav@tauex.tau.ac.il">inbalyahav@tauex.tau.ac.il</a></p>
-    <p>Office:  Lorry Lokey Building, Room 2074, Tel Aviv University</p>
+      <p><a href="mailto:inbalyahav@tauex.tau.ac.il">inbalyahav@tauex.tau.ac.il</a></p>
+      <p>Office:  Lorry Lokey Building, Room 2074, Tel Aviv University</p>
     
   # Add one block per chair. Duplicate the block below for additional chairs.
   - align: right
