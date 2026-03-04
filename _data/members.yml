@@ -13,18 +13,17 @@ phd:
     linkedin: https://www.linkedin.com/in/tal-cordova/
     google_scholar: https://scholar.google.com/citations?user=j-NM9y8AAAAJ&
 
-  # Add more PhD students by duplicating the block above:
-  # - name: ...
-  #   image: ...
-  #   thesis: ...
-  #   email: ...
+  - name: Itzik Ziv
+    advisor: Dr. Hilah Geva and Dr. Moshe Unger
+    image: itzik_ziv.jpg # assets/img/members/
+    thesis: Impact of Generative AI on Recommendations
 
 master:
   - name: Jonathan Mayo
-    advisor: Dt. Moshe Unger
-    image: jonathan_mayo.jpg # assets/img/members/
+    advisor: Dr. Moshe Unger
+    image: yonathan_mayo.jpg # assets/img/members/
     thesis: Unified Persona Representations for Cross-Domain Recommendation Systems
-    email: student@mail.tau.ac.il
+    # email: student@mail.tau.ac.il
     # github: # https://github.com/username
     # website:
     # linkedin:

@@ -34,9 +34,9 @@
 }
 
 .member-photo {
-  flex: 0 0 56px;
-  width: 56px;
-  height: 56px;
+  flex: 0 0 90px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--global-theme-color);
@@ -56,7 +56,7 @@
 }
 
 .member-initials {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.02em;
