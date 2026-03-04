@@ -4,6 +4,8 @@
 
 phd:
   - name: Tal Cordova
+    role: Lab Manager
+    advisor: Prof. Tomer Geva and Dr. Moshe Unger
     image: tal_cordova.jpg # assets/img/members/
     thesis: Vision Context-Aware Recommender Systems
     email: talcordova@mail.tau.ac.il
@@ -18,14 +20,14 @@ phd:
   #   email: ...
 
 master:
-  - name: Master Student Name
-    image: placeholder.jpg
-    thesis: Thesis title or research area goes here
+  - name: Jonathan Mayo
+    advisor: Dt. Moshe Unger
+    image: jonathan_mayo.jpg # assets/img/members/
+    thesis: Unified Persona Representations for Cross-Domain Recommendation Systems
     email: student@mail.tau.ac.il
-    github: # https://github.com/username
-    website:
-    linkedin:
-    year_start: 2024
+    # github: # https://github.com/username
+    # website:
+    # linkedin:
 
 former:
   - name: Former Student Name

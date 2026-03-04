@@ -27,8 +27,14 @@
           </div>
           <div class="member-info">
             <span class="member-name">{{ member.name }}</span>
+            {% if member.role %}
+              <span class="member-role">{{ member.role }}</span>
+            {% endif %}
             {% if member.thesis %}
               <span class="member-thesis">{{ member.thesis }}</span>
+            {% endif %}
+            {% if member.advisor %}
+              <span class="member-advisor">Advisor: {{ member.advisor }}</span>
             {% endif %}
             {% if member.year_start %}
               <span class="member-year">Since {{ member.year_start }}</span>
@@ -83,8 +89,14 @@
           </div>
           <div class="member-info">
             <span class="member-name">{{ member.name }}</span>
+            {% if member.role %}
+              <span class="member-role">{{ member.role }}</span>
+            {% endif %}
             {% if member.thesis %}
               <span class="member-thesis">{{ member.thesis }}</span>
+            {% endif %}
+            {% if member.advisor %}
+              <span class="member-advisor">Advisor: {{ member.advisor }}</span>
             {% endif %}
             {% if member.year_start %}
               <span class="member-year">Since {{ member.year_start }}</span>

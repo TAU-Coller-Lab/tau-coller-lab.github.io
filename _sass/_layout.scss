@@ -37,6 +37,9 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top;
   }
 }
 

@@ -77,12 +77,26 @@
   color: var(--global-text-color);
 }
 
+.member-role {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-theme-color);
+}
+
 .member-thesis {
   font-size: 0.9rem;
   color: var(--global-text-color-light);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.member-advisor {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
 }
 
 .member-year {
