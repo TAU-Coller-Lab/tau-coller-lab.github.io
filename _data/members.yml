@@ -21,7 +21,7 @@ phd:
 master:
   - name: Yonatan Mayo
     advisor: Dr. Moshe Unger
-    image: yonathan_mayo.jpg # assets/img/members/
+    image: yonatan_mayo.jpg # assets/img/members/
     thesis: Unified Persona Representations for Cross-Domain Recommendation Systems
     # email: student@mail.tau.ac.il
     # github: # https://github.com/username
