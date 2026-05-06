@@ -13,10 +13,22 @@ phd:
     linkedin: https://www.linkedin.com/in/tal-cordova/
     google_scholar: https://scholar.google.com/citations?user=j-NM9y8AAAAJ&
 
+  - name: Rawan Qadri
+    advisor: Prof. Inbal Yahav and Dr. Moshe Unger
+    image: rawan_qadri.jpg # assets/img/members/
+    thesis: Towards Aspectual Entailment-Informed Recommender Systems
+
+  - name: Yulia Nudelman
+    advisor: Prof. Inbal Yahav
+    image: yulia_nudelman.jpg # assets/img/members/
+    thesis: Towards Aspectual Entailment-Informed Recommender Systems
+
   - name: Itzik Ziv
     advisor: Dr. Hilah Geva and Dr. Moshe Unger
     image: itzik_ziv.jpg # assets/img/members/
     thesis: Impact of Generative AI on Recommendations
+
+  
 
 master:
   - name: Yonatan Mayo
