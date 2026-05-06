@@ -7,7 +7,8 @@ phd:
     role: Lab Manager
     advisor: Prof. Tomer Geva and Dr. Moshe Unger
     image: tal_cordova.jpg # assets/img/members/
-    thesis: Vision Context-Aware Recommender Systems
+    thesis: >-
+      Vision Context-Aware Recommender Systems
     email: talcordova@mail.tau.ac.il
     github: https://github.com/TalCordova
     linkedin: https://www.linkedin.com/in/tal-cordova/
@@ -15,13 +16,15 @@ phd:
 
   - name: Avihay Chriqui
     advisor: Prof. Inbal Yahav
-    thesis: NLP Tools for User Generated Content Monitoring
+    thesis: >-
+      NLP Tools for User Generated Content Monitoring
     published materials: https://pubsonline.informs.org/doi/abs/10.1287/ijds.2022.0016
 
   - name: Rawan Qadri
     advisor: Prof. Inbal Yahav and Dr. Moshe Unger
     image: rawan_qadri.jpg # assets/img/members/
-    thesis: Towards Aspectual Entailment-Informed Recommender Systems
+    thesis: >-
+      Towards Aspectual Entailment-Informed Recommender Systems
 
   - name: Yulia Nudelman
     advisor: Prof. Inbal Yahav and Prof. Dan Amiram
@@ -30,18 +33,21 @@ phd:
   - name: Coral Levy
     advisor: Prof. Tomer Geva
     image: coral_levy.jpg # assets/img/members/
-    thesis: Cognitive Bias in LLMs
+    thesis: >-
+      Cognitive Bias in LLMs
 
   - name: Itzik Ziv
     advisor: Dr. Hilah Geva and Dr. Moshe Unger
     image: itzik_ziv.jpg # assets/img/members/
-    thesis: Impact of Generative AI on Recommendations
- 
+    thesis: >-
+      Impact of Generative AI on Recommendations
+
   - name: Rony Rozen
     advisor: Prof. Inbal Yahav and Dr. Moshe Unger
     image: rony_rozen.jpeg # assets/img/members/
-    thesis: Quantifying the Semantic Evolution of Ideas: AI-Driven Attribution in Collaborative Innovation
-  
+    thesis: >-
+      Quantifying the Semantic Evolution of Ideas: AI-Driven Attribution in Collaborative Innovation
+
 
 master:
 
@@ -52,12 +58,14 @@ master:
   - name: Idan Ben-Hamo​
     advisor: Prof. Inbal Yahav
     image: idan_ben-hamo.jpg # assets/img/members/
-    thesis: From Latent Thought to Novelty: Do LLMs Leave Fingerprints on Thinking Patterns?
+    thesis: >-
+      From Latent Thought to Novelty: Do LLMs Leave Fingerprints on Thinking Patterns?
 
   - name: Jameel Brik
     advisor: Prof. Inbal Yahav
     image: jameel_brik.jpg # assets/img/members/
-    thesis: The Impact of Long vs Short term User preference on Context-Aware Recommendation Systems
+    thesis: >-
+      The Impact of Long vs Short term User preference on Context-Aware Recommendation Systems
 
   - name: Itay Browarnik
     advisor: Prof. Inbal Yahav
@@ -66,12 +74,14 @@ master:
   - name: Nir Cohen
     advisor: Dr. Moshe Unger
     image: nir_cohen.png # assets/img/members/
-    thesis: Situalization in Recommender Systems
+    thesis: >-
+      Situalization in Recommender Systems
 
   - name: Rotem Dgani
     advisor: Prof. Tomer Geva
     image: rotem_dgani.jpeg # assets/img/members/
-    thesis: A Novel Approach to Adversarial Generative AI Detection Using Cognitive Biases
+    thesis: >-
+      A Novel Approach to Adversarial Generative AI Detection Using Cognitive Biases
 
   - name: Eran Lary
     advisor: Prof. Tomer Geva
@@ -80,22 +90,26 @@ master:
   - name: Yonatan Mayo
     advisor: Dr. Moshe Unger
     image: yonatan_mayo.jpeg # assets/img/members/
-    thesis: Unified Persona Representations for Cross-Domain Recommendation Systems
+    thesis: >-
+      Unified Persona Representations for Cross-Domain Recommendation Systems
 
   - name: Rinat Nabwani
     advisor: Prof. Inbal Yahav
     image: rinat_nabwani.jpg # assets/img/members/
-    thesis: LLM-Oriented Readability Index for Hebrew Financial Texts
+    thesis: >-
+      LLM-Oriented Readability Index for Hebrew Financial Texts
 
   - name: Yonatan Pinkas
     advisor: Prof. Tomer Geva and Dr. Moshe Unger
     image: yonatan_pinkas.jpg # assets/img/members/
-    thesis: Context Aware Tabular Attention
+    thesis: >-
+      Context Aware Tabular Attention
 
 
 former:
   - name: Former Student Name
     degree: PhD # or Master
     year: 2023
-    thesis: Thesis title here
+    thesis: >-
+      Thesis title here
     current_position: Now at Organization Name
