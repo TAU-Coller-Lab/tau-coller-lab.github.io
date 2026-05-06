@@ -13,32 +13,85 @@ phd:
     linkedin: https://www.linkedin.com/in/tal-cordova/
     google_scholar: https://scholar.google.com/citations?user=j-NM9y8AAAAJ&
 
+  - name: Avihay Chriqui
+    advisor: Prof. Inbal Yahav
+    thesis: NLP Tools for User Generated Content Monitoring
+    published materials: https://pubsonline.informs.org/doi/abs/10.1287/ijds.2022.0016
+
   - name: Rawan Qadri
     advisor: Prof. Inbal Yahav and Dr. Moshe Unger
     image: rawan_qadri.jpg # assets/img/members/
     thesis: Towards Aspectual Entailment-Informed Recommender Systems
 
   - name: Yulia Nudelman
-    advisor: Prof. Inbal Yahav
-    image: yulia_nudelman.jpg # assets/img/members/
-    thesis: Towards Aspectual Entailment-Informed Recommender Systems
+    advisor: Prof. Inbal Yahav and Prof. Dan Amiram
+    image: yulia_nudelman.png # assets/img/members/
+
+  - name: Coral Levy
+    advisor: Prof. Tomer Geva
+    image: coral_levy.jpg # assets/img/members/
+    thesis: Cognitive Bias in LLMs
 
   - name: Itzik Ziv
     advisor: Dr. Hilah Geva and Dr. Moshe Unger
     image: itzik_ziv.jpg # assets/img/members/
     thesis: Impact of Generative AI on Recommendations
-
+ 
+  - name: Rony Rozen
+    advisor: Prof. Inbal Yahav and Dr. Moshe Unger
+    image: rony_rozen.jpeg # assets/img/members/
+    thesis: Quantifying the Semantic Evolution of Ideas: AI-Driven Attribution in Collaborative Innovation
   
 
 master:
+
+  - name: Yael Benarroch
+    advisor: Prof. Inbal Yahav
+    image: yael_benarroch.jpg # assets/img/members/
+
+  - name: Idan Ben-Hamo​
+    advisor: Prof. Inbal Yahav
+    image: idan_ben-hamo.jpg # assets/img/members/
+    thesis: From Latent Thought to Novelty: Do LLMs Leave Fingerprints on Thinking Patterns?
+
+  - name: Jameel Brik
+    advisor: Prof. Inbal Yahav
+    image: jameel_brik.jpg # assets/img/members/
+    thesis: The Impact of Long vs Short term User preference on Context-Aware Recommendation Systems
+
+  - name: Itay Browarnik
+    advisor: Prof. Inbal Yahav
+    image: itay_browarnik.jpg # assets/img/members/
+
+  - name: Nir Cohen
+    advisor: Dr. Moshe Unger
+    image: nir_cohen.png # assets/img/members/
+    thesis: Situalization in Recommender Systems
+
+  - name: Rotem Dgani
+    advisor: Prof. Tomer Geva
+    image: rotem_dgani.jpeg # assets/img/members/
+    thesis: A Novel Approach to Adversarial Generative AI Detection Using Cognitive Biases
+
+  - name: Eran Lary
+    advisor: Prof. Tomer Geva
+    image: eran_lari.png # assets/img/members/
+
   - name: Yonatan Mayo
     advisor: Dr. Moshe Unger
-    image: yonatan_mayo.jpg # assets/img/members/
+    image: yonatan_mayo.jpeg # assets/img/members/
     thesis: Unified Persona Representations for Cross-Domain Recommendation Systems
-    # email: student@mail.tau.ac.il
-    # github: # https://github.com/username
-    # website:
-    # linkedin:
+
+  - name: Rinat Nabwani
+    advisor: Prof. Inbal Yahav
+    image: rinat_nabwani.jpg # assets/img/members/
+    thesis: LLM-Oriented Readability Index for Hebrew Financial Texts
+
+  - name: Yonatan Pinkas
+    advisor: Prof. Tomer Geva and Dr. Moshe Unger
+    image: yonatan_pinkas.jpg # assets/img/members/
+    thesis: Context Aware Tabular Attention
+
 
 former:
   - name: Former Student Name
