@@ -1,12 +1,18 @@
 # Lab tools and datasets
 # Each entry represents a software tool or dataset produced by the lab.
 
-- name: Tool Name
-  description: A short one-sentence description of what this tool does and what problem it solves.
-  github: https://github.com/TAU-Coller-Lab/tool-name
-  paper: # link to the associated publication (optional)
-  docs: # link to documentation or project website (optional)
-  tags: [nlp, classification] # relevant research area tags
+- name: HeBERT
+  description: A Pre-trained BERT for Polarity Analysis and Emotion Recognition. We collected Israeli news site comments, and labeled sentiment and emotion conveyed in the comments.
+  dataset: https://github.com/avichaychriqui/HeBERT/blob/main/data.zip
+  paper: https://pubsonline.informs.org/doi/abs/10.1287/ijds.2022.0016
+  docs: https://dd1dd4c0-ed07-4181-8a70-f2ed8507f81b.filesusr.com/ugd/045d3d_dd15117c110a44c886c0e9506ec018af.pdf
+  tags: [nlp, sentiment-analysis] # relevant research area tags
+
+- name: Legal HeBERT
+  description: A preliminary BERT model for Hebrew legal and legislative domains.
+  dataset: https://huggingface.co/datasets/LevMuchnik/SupremeCourtOfIsrael
+  docs: https://taucollerlab.github.io/Legal-Hebrew-NER/
+  note: We are currently in the process of collecting and annotating more legal documents! You can find more. If you want to join us email to <p><a href="mailto:inbalyahav@tauex.tau.ac.il">inbalyahav@tauex.tau.ac.il</a></p>
 
 # Add more tools by duplicating the block above:
 # - name: ...

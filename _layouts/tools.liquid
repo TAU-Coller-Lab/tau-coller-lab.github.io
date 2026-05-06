@@ -40,6 +40,9 @@ layout: page
             {% if tool.description %}
               <p class="tool-description">{{ tool.description }}</p>
             {% endif %}
+            {% if tool.note %}
+              <p class="tool-note"><em>{{ tool.note }}</em></p>
+            {% endif %}
             {% if tool.tags and tool.tags.size > 0 %}
               <div class="tool-tags">
                 {% for tag in tool.tags %}
